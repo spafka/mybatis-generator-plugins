@@ -32,7 +32,8 @@ public class LombokPlugin extends PluginAdapter {
 
         addAnno(topLevelClass, LombokConstant.LOMBOK_ANNO_DATA);
         addAnno(topLevelClass, LombokConstant.LOMBOK_ANNO_BUILDER);
-
+        addAnno(topLevelClass, LombokConstant.LOMBOK_AllArgsConstructor);
+        addAnno(topLevelClass, LombokConstant.LOMBOK_NoArgsConstructor);
         return true;
     }
 

@@ -13,7 +13,5 @@ package xyz.mrwood.mybatis.generator.plugin.common;
 public interface LombokConstant {
 
     String LOMBOK_ANNO_DATA = "lombok.Data";
-    String LOMBOK_ANNO_BUILDER = "lombok.Builder";
-    String LOMBOK_AllArgsConstructor = "lombok.AllArgsConstructor";
-    String LOMBOK_NoArgsConstructor = "lombok.NoArgsConstructor";
+
 }

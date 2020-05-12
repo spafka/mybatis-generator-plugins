@@ -31,9 +31,7 @@ public class LombokPlugin extends PluginAdapter {
     public boolean modelBaseRecordClassGenerated(TopLevelClass topLevelClass, IntrospectedTable introspectedTable) {
 
         addAnno(topLevelClass, LombokConstant.LOMBOK_ANNO_DATA);
-        addAnno(topLevelClass, LombokConstant.LOMBOK_ANNO_BUILDER);
-        addAnno(topLevelClass, LombokConstant.LOMBOK_AllArgsConstructor);
-        addAnno(topLevelClass, LombokConstant.LOMBOK_NoArgsConstructor);
+
         return true;
     }
 
@@ -76,13 +74,12 @@ public class LombokPlugin extends PluginAdapter {
      */
     private void addAnno(TopLevelClass topLevelClass, String fullyQualifiedJavaType) {
 
-        FullyQualifiedJavaType full = new FullyQualifiedJavaType(fullyQualifiedJavaType);
-        String[] split = fullyQualifiedJavaType.split("\\.");
-        for (String s : split) {
+        FullyQualifiedJavaType full = new FullyQualifiedJavaType("lombok.Data");
 
-            System.err.println(s);
-        }
         topLevelClass.addImportedType(fullyQualifiedJavaType);
-        topLevelClass.addAnnotation("@" + split[split.length - 1]);
+        topLevelClass.addImportedType(new FullyQualifiedJavaType("lombok.experimental.Accessors"));
+
+        topLevelClass.addAnnotation("@Data");
+        topLevelClass.addAnnotation("@Accessors(chain = true)");
     }
 }

@@ -1,15 +1,15 @@
 /**
  * Copyright (c) 2016, 791650277@qq.com(Mr.kiwi) All Rights Reserved.
  */
-package xyz.mrwood.mybatis.generator.plugin.plugins;
+package io.github.spafka.mybatis.generator.plugin.plugins;
 
+import io.github.spafka.mybatis.generator.plugin.common.LombokConstant;
 import org.mybatis.generator.api.IntrospectedColumn;
 import org.mybatis.generator.api.IntrospectedTable;
 import org.mybatis.generator.api.PluginAdapter;
 import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;
 import org.mybatis.generator.api.dom.java.Method;
 import org.mybatis.generator.api.dom.java.TopLevelClass;
-import xyz.mrwood.mybatis.generator.plugin.common.LombokConstant;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2017, 791650277@qq.com(Mr.kiwi) All Rights Reserved.
  */
-package xyz.mrwood.mybatis.generator.plugin.plugins;
+package io.github.spafka.mybatis.generator.plugin.plugins;
 
 import org.mybatis.generator.api.IntrospectedColumn;
 import org.mybatis.generator.api.IntrospectedTable;

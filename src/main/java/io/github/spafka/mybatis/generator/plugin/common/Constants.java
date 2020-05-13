@@ -5,7 +5,7 @@
  * 时间：2017-03-08 13:58
  * 作者：Mr.Kiwi
  */
-package xyz.mrwood.mybatis.generator.plugin.common;
+package io.github.spafka.mybatis.generator.plugin.common;
 
 /**
  * 项目：mybatis-generator-plugins

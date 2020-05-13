@@ -1,8 +1,9 @@
 /**
  * Copyright (c) 2016, 791650277@qq.com(Mr.kiwi) All Rights Reserved.
  */
-package xyz.mrwood.mybatis.generator.plugin.plugins;
+package io.github.spafka.mybatis.generator.plugin.plugins;
 
+import io.github.spafka.mybatis.generator.plugin.common.Constants;
 import org.mybatis.generator.api.GeneratedJavaFile;
 import org.mybatis.generator.api.GeneratedXmlFile;
 import org.mybatis.generator.api.IntrospectedTable;
@@ -18,7 +19,6 @@ import org.mybatis.generator.api.dom.xml.TextElement;
 import org.mybatis.generator.api.dom.xml.XmlElement;
 import org.mybatis.generator.codegen.XmlConstants;
 import org.mybatis.generator.config.Context;
-import xyz.mrwood.mybatis.generator.plugin.common.Constants;
 
 import java.io.File;
 import java.util.ArrayList;

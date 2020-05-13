@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2016, 791650277@qq.com(Mr.kiwi) All Rights Reserved.
  */
-package xyz.mrwood.mybatis.generator.plugin.ext;
+package io.github.spafka.mybatis.generator.plugin.ext;
 
 import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;
 import org.mybatis.generator.internal.types.JavaTypeResolverDefaultImpl;

@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2016, 791650277@qq.com(Mr.kiwi) All Rights Reserved.
  */
-package xyz.mrwood.mybatis.generator.plugin.common;
+package io.github.spafka.mybatis.generator.plugin.common;
 
 /**
  * 项目：mybatis-generator-plugin
